@@ -1,10 +1,11 @@
-import './App.css'
+import {Container} from '@mui/material'
+import ProfessionalSkills from './components/ProfessionalSkills'
 
 function App() {
-
   return (
-    <>
-    </>
+    <Container fixed>
+      <ProfessionalSkills />
+    </Container>
   )
 }
 
